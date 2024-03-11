@@ -1,0 +1,1 @@
+This repository holds the files relevant to the creation of my website to host the white paper created during completion of a recent contract job in during Jan - March 2024 (maybe beyond March). This website will be created using Next.js. 
