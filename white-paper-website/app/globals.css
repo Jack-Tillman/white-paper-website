@@ -18,12 +18,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -31,3 +28,30 @@ body {
     text-wrap: balance;
   }
 }
+
+
+  /* {
+  'rich_black': {
+    DEFAULT: '#0d1b2a', 100: '#030609', 200: '#050b11', 300: '#08111a', 400: '#0b1622', 500: '#0d1b2a', 600: '#234870', 700: '#3875b6', 800: '#74a3d4', 900: '#bad1ea'
+  }
+
+  ,
+  'celtic_blue': {
+    DEFAULT: '#266dd3', 100: '#08162a', 200: '#0f2c54', 300: '#17427f', 400: '#1f58a9', 500: '#266dd3', 600: '#4f8bdf', 700: '#7ba8e7', 800: '#a7c5ef', 900: '#d3e2f7'
+  }
+
+  ,
+  'snow': {
+    DEFAULT: '#fffbfe', 100: '#65004c', 200: '#ca0097', 300: '#ff30cb', 400: '#ff95e4', 500: '#fffbfe', 600: '#fffbfe', 700: '#fffcfe', 800: '#fffdfe', 900: '#fffeff'
+  }
+
+  ,
+  'air_superiority_blue': {
+    DEFAULT: '#75A6C9', 100: '#12222e', 200: '#23445b', 300: '#356689', 400: '#4788b6', 500: '#75a6c9', 600: '#8fb7d4', 700: '#abc9de', 800: '#c7dbe9', 900: '#e3edf4'
+  }
+
+  ,
+  'mint_green': {
+    DEFAULT: '#C8E2DF', 100: '#1e3835', 200: '#3b706a', 300: '#59a89f', 400: '#91c5bf', 500: '#c8e2df', 600: '#d4e8e6', 700: '#dfeeec', 800: '#eaf4f3', 900: '#f4f9f9'
+  }
+} */
